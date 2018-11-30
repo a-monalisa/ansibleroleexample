@@ -1,0 +1,4 @@
+- hosts: web
+  role: 
+   - name-of-the-role
+   -

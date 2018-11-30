@@ -1,0 +1,7 @@
+- hosts: all
+  remote_user: root
+  vars_files:
+   - "vars/external_vars.yaml"
+  tasks:
+  - name: Ensure that Apache is installed
+    yum: name={{web_5}} state=present

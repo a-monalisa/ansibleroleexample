@@ -1,0 +1,7 @@
+- hosts: all
+  tasks:
+   - name: Install Softwares
+     yum: pkg={{ item }} state=installed
+     with_items:
+      - git
+      - vim  

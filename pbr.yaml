@@ -1,0 +1,8 @@
+
+- hosts: web
+  sudo: yes
+
+  tasks:
+  - name: Reboot the system
+    reboot:
+ 

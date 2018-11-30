@@ -1,0 +1,2 @@
+[web]
+192.168.0.64  ansible_user=root ansible_ssh_private_key_file=/id_rsa ansible_shell_type=sh web_3=httpd

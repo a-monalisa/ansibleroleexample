@@ -1,0 +1,8 @@
+
+- hosts: web
+  sudo: yes
+  vars:
+   web_4: httpd
+  tasks:
+  - name: Ensure that Apache is installed
+    yum: name={{web_4}} state=present

@@ -1,0 +1,5 @@
+- hosts: all
+  tasks:
+   - command: echo {{ item }}
+     loop: "{{ mylist|default([]) }}"
+     when: item > 5

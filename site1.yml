@@ -1,0 +1,4 @@
+- hosts: web
+  roles: 
+   - name-of-the-role
+   - geerlingguy.java

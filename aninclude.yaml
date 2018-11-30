@@ -1,0 +1,9 @@
+- hosts: web
+  tasks:
+   - debug:
+      msg: play1
+
+   - name: Include a play after another play
+     include: pb1.yaml       
+
+

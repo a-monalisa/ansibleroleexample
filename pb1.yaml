@@ -1,0 +1,8 @@
+- hosts: web
+  sudo: yes
+
+  tasks:
+  - name: Create Group
+    group: name=deploy state=present
+ 
+   
